@@ -166,7 +166,7 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, '127.0.0.1', async () => {
+server.listen(PORT, '0.0.0.0', async () => {
   console.log('');
   console.log('  Road to Glory Golf - Leaderboard Proxy');
   console.log('  =======================================');
